@@ -24,6 +24,7 @@ body {
 }
 
 .fidget {
+    border: none;
     position: absolute;
     background: #800000;
     width: 45px;
