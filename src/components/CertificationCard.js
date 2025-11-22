@@ -2,9 +2,9 @@ import React from 'react';
 
 function CertificationCard({ image, title, description, onImageClick }) {
   return (
-    <div className="flex gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
+    <div className="flex flex-col md:flex-row gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
       <div 
-        className="min-w-[200px] w-[200px] h-[112px] rounded overflow-hidden cursor-pointer hover:opacity-90 transition-opacity"
+        className="md:min-w-[200px] md:w-[200px] md:h-[112px] w-full h-auto rounded overflow-hidden cursor-pointer hover:opacity-90 transition-opacity"
         onClick={onImageClick}
       >
         <img

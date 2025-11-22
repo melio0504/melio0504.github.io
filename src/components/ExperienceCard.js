@@ -9,8 +9,8 @@ function ExperienceCard({ date, title, description, technologies, link }) {
       rel="noopener noreferrer"
       className="block group"
     >
-      <div className="flex gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
-        <div className="text-m text-maroon-400 font-medium min-w-[100px] pt-1">
+      <div className="flex flex-col md:flex-row gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
+        <div className="text-m text-maroon-400 font-medium md:min-w-[100px] pt-1">
           {date}
         </div>
         <div className="flex-1">
