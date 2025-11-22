@@ -26,15 +26,11 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        exclude: /index\.html$/,
         loader: 'html-loader'
-      },
+      },  
       {
         test: /\.(png|jpe?g|gif|svg|webp)$/i,
         type: 'asset/resource',
-        generator: {
-          filename: 'images/[name].[hash][ext]'
-        }
       }
     ],
   },
