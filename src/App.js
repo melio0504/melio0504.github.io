@@ -1,0 +1,18 @@
+import React from 'react';
+import Sidebar from './components/Sidebar';
+import MainContent from './components/MainContent';
+import CursorLight from './components/CursorLight';
+
+function App() {
+  return (
+    <div className="relative min-h-screen bg-[#1a0a0a]">
+      <CursorLight />
+      <div className="flex flex-col md:flex-row">
+        <Sidebar />
+        <MainContent />
+      </div>
+    </div>
+  );
+}
+
+export default App;
