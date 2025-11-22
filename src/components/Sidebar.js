@@ -7,7 +7,7 @@ function Sidebar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'projects'];
+      const sections = ['about', 'experience', 'certifications', 'projects'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -78,6 +78,18 @@ function Sidebar() {
                 }`}
               >
                 Experience
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => scrollToSection('certifications')}
+                className={`text-center md:text-left transition-colors w-full ${
+                  activeSection === 'certifications'
+                    ? 'text-maroon-300'
+                    : 'text-gray-400 hover:text-maroon-400'
+                }`}
+              >
+                Certifications
               </button>
             </li>
             <li>
