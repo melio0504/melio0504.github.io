@@ -111,7 +111,7 @@ function Sidebar() {
             href="https://github.com/melio0504"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 transition-colors"
+            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
             aria-label="GitHub"
           >
             <Github size={24} />
@@ -120,7 +120,7 @@ function Sidebar() {
             href="https://www.linkedin.com/in/romelioteodoro/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 transition-colors"
+            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
             aria-label="LinkedIn"
           >
             <Linkedin size={24} />
@@ -129,7 +129,7 @@ function Sidebar() {
             href="https://www.goodreads.com/user/show/170015699-romelio"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 transition-colors"
+            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
             aria-label="Goodreads"
           >
             <BookOpen size={24} />
@@ -138,7 +138,7 @@ function Sidebar() {
             href="https://www.instagram.com/melio0504/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 transition-colors"
+            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
             aria-label="Instagram"
           >
             <Instagram size={24} />
