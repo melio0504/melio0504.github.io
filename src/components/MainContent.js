@@ -103,7 +103,7 @@ function MainContent() {
   ];
 
   return (
-    <div className="w-full md:ml-[50%] md:w-1/2 min-h-screen">
+    <div className="w-full md:ml-[50%] md:w-1/2 min-h-screen z-10">
       <div className="max-w-4xl mx-auto md:px-10 py-8 md:py-16">
         <section id="about" className="mb-10">
           <h2 className="text-3xl font-bold text-maroon-300 mb-6">About</h2>

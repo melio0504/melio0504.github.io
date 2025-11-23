@@ -27,7 +27,7 @@ body {
   width: 1500px;
   height: 1500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(128, 0, 32, 0.2) 0%, transparent 40%);
+  background: radial-gradient(circle, rgba(128, 0, 32, 0.6) 5%, transparent 50%);
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 10;
