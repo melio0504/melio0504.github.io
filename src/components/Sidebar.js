@@ -49,7 +49,7 @@ function Sidebar() {
         <h1 className="text-2xl text-maroon-300 mb-4 text-center md:text-left w-full">Full-stack Web Developer</h1>
         <a 
           href="mailto:romelioteodoro1005@gmail.com" 
-          className="text-gray-400 hover:text-maroon-300 mb-8 transition-colors flex items-center gap-2 justify-center md:justify-start text-center md:text-left w-full"
+          className="text-gray-400 mb-8 hover:brightness-150 transition-all duration-300 flex items-center gap-2 justify-center md:justify-start text-center md:text-left w-full"
         >
           <Mail size={20} />
           <span>romelioteodoro1005@gmail.com</span>
@@ -59,10 +59,10 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection('about')}
-                className={`text-center md:text-left transition-colors w-full ${
+                className={`text-center md:text-left hover:brightness-150 transition-all duration-300 w-full ${
                   activeSection === 'about'
-                    ? 'text-maroon-300'
-                    : 'text-gray-400 hover:text-maroon-400'
+                    ? 'brightness-150'
+                    : 'text-gray-400'
                 }`}
               >
                 About
@@ -71,10 +71,10 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection('experience')}
-                className={`text-center md:text-left transition-colors w-full ${
+                className={`text-center md:text-left hover:brightness-150 transition-all duration-300 w-full ${
                   activeSection === 'experience'
-                    ? 'text-maroon-300'
-                    : 'text-gray-400 hover:text-maroon-400'
+                    ? 'brightness-150'
+                    : 'text-gray-400'
                 }`}
               >
                 Experience
@@ -83,10 +83,10 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection('certifications')}
-                className={`text-center md:text-left transition-colors w-full ${
+                className={`text-center md:text-left hover:brightness-150 transition-all duration-300 w-full ${
                   activeSection === 'certifications'
-                    ? 'text-maroon-300'
-                    : 'text-gray-400 hover:text-maroon-400'
+                    ? 'brightness-150'
+                    : 'text-gray-400'
                 }`}
               >
                 Certifications
@@ -95,10 +95,10 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection('projects')}
-                className={`text-center md:text-left transition-colors w-full ${
+                className={`text-center md:text-left hover:brightness-150 transition-all duration-300 w-full ${
                   activeSection === 'projects'
-                    ? 'text-maroon-300'
-                    : 'text-gray-400 hover:text-maroon-400'
+                    ? 'brightness-150'
+                    : 'text-gray-400'
                 }`}
               >
                 Projects
@@ -111,7 +111,7 @@ function Sidebar() {
             href="https://github.com/melio0504"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
+            className="text-gray-400 hover:brightness-150 transition-all duration-300"
             aria-label="GitHub"
           >
             <Github size={24} />
@@ -120,7 +120,7 @@ function Sidebar() {
             href="https://www.linkedin.com/in/romelioteodoro/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
+            className="text-gray-400 hover:brightness-150 transition-all duration-300"
             aria-label="LinkedIn"
           >
             <Linkedin size={24} />
@@ -129,7 +129,7 @@ function Sidebar() {
             href="https://www.goodreads.com/user/show/170015699-romelio"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
+            className="text-gray-400 hover:brightness-150 transition-all duration-300"
             aria-label="Goodreads"
           >
             <BookOpen size={24} />
@@ -138,7 +138,7 @@ function Sidebar() {
             href="https://www.instagram.com/melio0504/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-maroon-300 hover:brightness-150 transition-all duration-300"
+            className="text-gray-400 hover:brightness-150 transition-all duration-300"
             aria-label="Instagram"
           >
             <Instagram size={24} />
