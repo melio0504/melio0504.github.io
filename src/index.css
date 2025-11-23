@@ -22,13 +22,6 @@ body {
   padding-right: 1rem;
 }
 
-@media (min-width: 1024px) {
-  body {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-}
-
 .cursor-light {
   position: fixed;
   width: 1500px;
