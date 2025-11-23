@@ -18,8 +18,15 @@ body {
   color: #e5e5e5;
   overflow-x: hidden;
   outline: none;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 .cursor-light {

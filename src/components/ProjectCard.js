@@ -9,8 +9,8 @@ function ProjectCard({ image, title, description, technologies, link }) {
       rel="noopener noreferrer"
       className="block group"
     >
-      <div className="flex flex-col md:flex-row gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
-        <div className="md:min-w-[200px] md:w-[200px] md:h-[112px] w-full h-auto rounded overflow-hidden">
+      <div className="flex flex-col lg:flex-row gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
+        <div className="lg:min-w-[200px] lg:w-[200px] lg:h-[112px] w-full h-auto rounded overflow-hidden">
           <img
             src={image}
             alt={title}
