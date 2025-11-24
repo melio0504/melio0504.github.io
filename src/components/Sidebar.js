@@ -36,7 +36,7 @@ function Sidebar() {
   return (
     <div className="w-full lg:fixed lg:left-0 lg:top-0 lg:w-1/2 lg:h-screen flex flex-col justify-center items-center p-6 lg:p-8 z-10 py-12 lg:py-8">
       <div className="max-w-md flex flex-col items-center lg:items-start">
-        <div className="w-56 h-56 min-w-[224px] min-h-[224px] flex-shrink-0 rounded-full bg-maroon-800/50 border-2 border-maroon-600 mb-6 flex items-center justify-center overflow-hidden">
+        <div className="w-56 h-56 min-w-[224px] min-h-[224px] flex-shrink-0 rounded-full mb-6 flex items-center justify-center overflow-hidden">
           <img 
             src={profilePicture} 
             alt="Profile" 
