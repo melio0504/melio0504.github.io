@@ -10,8 +10,8 @@ function MainContent() {
   const experiences = [
     {
       date: '2025 - present',
-      title: 'Open Source Developer at BetterGov.ph',
-      description: 'I started contributing to BetterGov.ph, an open-source initiative launched on September 19, 2025, with the mission to make Philippine government services more accessible and user-friendly online. I joined the project on September 25, 2025, and since then I’ve helped improve the portal by updating outdated links, refining design elements, and enhancing accessibility features. Through these volunteer efforts, I support the team’s vision of building a modern, inclusive, and reliable government portal for all citizens.',
+      title: 'Open Source Contributor at BetterGov.ph',
+      description: 'I started contributing to BetterGov.ph, an open-source initiative launched on September 19, 2025, with the mission to make Philippine government services more accessible and user-friendly online. I joined the project on September 25, 2025, and since then I’ve helped improve the portal by updating outdated links, refining design elements, and enhancing accessibility features. I’ve also resolved several GitHub issues to keep the platform accurate, functional, and up-to-date. Through these volunteer efforts, I support the team’s vision of building a modern, inclusive, and reliable government portal for all citizens.',
       technologies: ['TypeScript', 'Vite', 'npm', 'Docker', 'Git/GitHub'],
       link: 'https://bettergov.ph/'
     }
