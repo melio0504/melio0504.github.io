@@ -108,16 +108,15 @@ function MainContent() {
         <section id="about" className="mb-10">
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
-              Hi, I’m Romelio from Manila, Philippines. I’m currently a 3rd-year BSIT student with a strong 
+              Hi, I’m <b>Romelio</b> from <b>Manila, Philippines</b>. I’m currently a 3rd-year BSIT student with a strong 
               interest in web technologies and the role they play in making information easier and 
               faster to reach. Right now, I’m currently exploring different areas of web development and enjoying 
               the process of learning and building things along the way.
             </p>
-            <p>
-              I’m an advocate of open source software and daily-drive Linux on my ThinkPad T480. 
-              I’m also enthusiastic about Git and I look up to Linus Torvalds as one of my role models 
-              in the tech industry. The openness, collaboration, and innovation in this space are a big 
-              part of what inspires me.
+            <p> 
+              I’m an advocate of <b>open-source software</b>, and I’m actually one of the top contributors to <b>BetterGov.ph</b> — you can check it out below. 
+              I’m also enthusiastic about <b>Linux</b>, <b>Git</b>, and <b>ThinkPad</b>, and I look up to Linus Torvalds as one of my role models in the tech industry. 
+              The openness, collaboration, and innovation in this space are a big part of what inspires me. 
             </p>
             <p>
               Outside of programming, I love listening to music, especially The Beatles, with Revolver 
