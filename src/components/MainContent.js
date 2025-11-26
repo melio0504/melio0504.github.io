@@ -12,7 +12,7 @@ function MainContent() {
       date: '2025 - present',
       title: 'Open Source Contributor at BetterGov.ph',
       description: 'I started contributing to BetterGov.ph, an open-source initiative launched on September 19, 2025, with the mission to make Philippine government services more accessible and user-friendly online. I joined the project on September 25, 2025, and since then I’ve helped improve the portal by updating outdated links, refining design elements, and enhancing accessibility features. I’ve also resolved several GitHub issues to keep the platform accurate, functional, and up-to-date. Through these volunteer efforts, I support the team’s vision of building a modern, inclusive, and reliable government portal for all citizens.',
-      technologies: ['TypeScript', 'Vite', 'npm', 'Docker', 'Git/GitHub'],
+      technologies: ['TypeScript', 'Vite', 'npm', 'Docker', 'Git', 'GitHub'],
       link: 'https://bettergov.ph/'
     }
   ];
@@ -55,49 +55,49 @@ function MainContent() {
       image: '/images/blepnote.png',
       title: 'BlepNote',
       description: 'A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.',
-      technologies: ['JavaScript', 'TailwindCSS', 'HTML5'],
+      technologies: ['JavaScript', 'TailwindCSS', 'HTML5', 'Git', 'GitHub'],
       link: 'https://blepnote.vercel.app/'
     },
     {
       image: '/images/restaurant-page.png',
       title: 'Restaurant Page',
       description: 'A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.',
-      technologies: ['JavaScript', 'Webpack', 'npm', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'Webpack', 'npm', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/restaurant-page/'
     },
     {
       image: '/images/akda.png',
       title: 'Akda',
       description: `Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.`,
-      technologies: ['JavaScript', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/akda/'
     },
     {
       image: '/images/calculator.png',
       title: 'Calculator',
       description: 'A website that lets you easily access and use a simple calculator for quick calculations.',
-      technologies: ['JavaScript', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/calculator/'
     },
     {
       image: '/images/etch-a-sketch.png',
       title: 'Etch-a-Sketch',
       description: 'A website that lets you create pixel art with Etch A Sketch.',
-      technologies: ['JavaScript', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/etch-a-sketch/'
     },
     {
       image: '/images/rock-paper-scissors.png',
       title: 'Rock-Paper-Scissors',
       description: 'A website that lets you play the classic Rock-Paper-Scissors game.',
-      technologies: ['JavaScript', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/rock-paper-scissors/'
     },
     {
       image: '/images/tic-tac-toe.png',
       title: 'Tic Tac Toe',
       description: 'A simple web application to play Tic Tac Toe but with cats.',
-      technologies: ['JavaScript', 'CSS3', 'HTML5'],
+      technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://melio0504.github.io/tic-tac-toe/'
     },
   ];
