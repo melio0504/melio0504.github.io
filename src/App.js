@@ -5,7 +5,7 @@ import CursorLight from './components/CursorLight';
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-[#1a0a0a]">
+    <div className="relative min-h-screen">
       <CursorLight />
       <div className="flex flex-col lg:flex-row">
         <Sidebar />
