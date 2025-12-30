@@ -48,11 +48,11 @@ function Sidebar() {
         <h1 className="text-4xl lg:text-5xl font-bold mb-4 w-full whitespace-nowrap text-center lg:text-left">Romelio Teodoro</h1>
         <h1 className="text-2xl mb-4 text-center lg:text-left w-full">Full-stack Web Developer</h1>
         <a 
-          href="mailto:romelioteodoro1005@gmail.com" 
+          href="mailto:hello@romelioteodoro.dev" 
           className="text-gray-400 mb-8 hover:brightness-150 transition-all duration-300 flex items-center gap-2 justify-center lg:justify-start text-center lg:text-left w-full"
         >
           <Mail size={20} />
-          <span>romelioteodoro1005@gmail.com</span>
+          <span>hello@romelioteodoro.dev</span>
         </a>
         <nav className="hidden lg:block mb-8 w-full">
           <ul className="space-y-4">
