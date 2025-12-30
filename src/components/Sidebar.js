@@ -161,24 +161,6 @@ function Sidebar() {
           >
             <Linkedin size={24} />
           </a>
-          <a
-            href="https://www.goodreads.com/user/show/170015699-romelio"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:brightness-150 transition-all duration-300"
-            aria-label="Goodreads"
-          >
-            <BookOpen size={24} />
-          </a>
-          <a
-            href="https://www.instagram.com/melio0504/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:brightness-150 transition-all duration-300"
-            aria-label="Instagram"
-          >
-            <Instagram size={24} />
-          </a>
         </div>
       </div>
     </div>
