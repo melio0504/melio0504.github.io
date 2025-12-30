@@ -39,7 +39,7 @@ function Sidebar() {
         <div className="w-56 h-56 min-w-[224px] min-h-[224px] flex-shrink-0 rounded-full mb-6 flex items-center justify-center overflow-hidden">
           <img 
             src={profilePicture} 
-            alt="Profile" 
+            alt="Romelio Teodoro - Full-stack Web Developer from Manila, Philippines" 
             className="object-cover rounded-full flex-shrink-0 select-none"
             draggable={false}
             onDragStart={(e) => e.preventDefault()}
