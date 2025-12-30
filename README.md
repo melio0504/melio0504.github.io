@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Website](/public/images/website.png)
+![Website](/public/images/screenshot.png)
 
 My portfolio website showcasing my work, experience, and projects in web development. Built with React and Tailwind CSS, featuring a clean design with smooth animations and an intuitive user experience.
 
