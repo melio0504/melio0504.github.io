@@ -70,42 +70,42 @@ function MainContent() {
       title: 'Restaurant Page',
       description: 'A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.',
       technologies: ['JavaScript', 'Webpack', 'npm', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/restaurant-page/'
+      link: 'https://www.romelioteodoro.dev/restaurant-page/'
     },
     {
       image: '/images/akda.png',
       title: 'Akda',
       description: `Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.`,
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/akda/'
+      link: 'https://www.romelioteodoro.dev/akda/'
     },
     {
       image: '/images/calculator.png',
       title: 'Calculator',
       description: 'A website that lets you easily access and use a simple calculator for quick calculations.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/calculator/'
+      link: 'https://www.romelioteodoro.dev/calculator/'
     },
     {
       image: '/images/etch-a-sketch.png',
       title: 'Etch-a-Sketch',
       description: 'A website that lets you create pixel art with Etch A Sketch.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/etch-a-sketch/'
+      link: 'https://www.romelioteodoro.dev/etch-a-sketch/'
     },
     {
       image: '/images/rock-paper-scissors.png',
       title: 'Rock-Paper-Scissors',
       description: 'A website that lets you play the classic Rock-Paper-Scissors game.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/rock-paper-scissors/'
+      link: 'https://www.romelioteodoro.dev/rock-paper-scissors/'
     },
     {
       image: '/images/tic-tac-toe.png',
       title: 'Tic Tac Toe',
       description: 'A simple web application to play Tic Tac Toe but with cats.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://melio0504.github.io/tic-tac-toe/'
+      link: 'https://www.romelioteodoro.dev/tic-tac-toe/'
     },
   ];
 
