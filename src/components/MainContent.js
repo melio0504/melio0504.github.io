@@ -56,7 +56,7 @@ function MainContent() {
       title: 'BlepNote',
       description: 'A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.',
       technologies: ['JavaScript', 'TailwindCSS', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://blepnote.vercel.app/'
+      link: 'https://www.romelioteodoro.dev/blepnote/'
     },
     {
       image: '/images/todo-app.png',
