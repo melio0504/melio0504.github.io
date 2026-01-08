@@ -59,6 +59,13 @@ function MainContent() {
       link: 'https://blepnote.vercel.app/'
     },
     {
+      image: '/images/todo-app.png',
+      title: 'To-Do List',
+      description: 'A simple todo-list web application inspired by Google Tasks UI design.',
+      technologies: ['JavaScript', 'npm', 'Webpack', 'HTML5', 'CSS3', 'Git', 'GitHub'],
+      link: 'https://www.romelioteodoro.dev/todo-list/'
+    },
+    {
       image: '/images/restaurant-page.png',
       title: 'Restaurant Page',
       description: 'A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.',
