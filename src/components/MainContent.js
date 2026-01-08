@@ -88,14 +88,14 @@ function MainContent() {
     },
     {
       image: '/images/etch-a-sketch.png',
-      title: 'Etch-a-Sketch',
+      title: 'Etch A Sketch',
       description: 'A website that lets you create pixel art with Etch A Sketch.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://www.romelioteodoro.dev/etch-a-sketch/'
     },
     {
       image: '/images/rock-paper-scissors.png',
-      title: 'Rock-Paper-Scissors',
+      title: 'Rock Paper Scissors',
       description: 'A website that lets you play the classic Rock-Paper-Scissors game.',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://www.romelioteodoro.dev/rock-paper-scissors/'
