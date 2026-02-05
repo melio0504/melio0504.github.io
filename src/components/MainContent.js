@@ -52,11 +52,11 @@ function MainContent() {
 
   const projects = [
     {
-      image: '/images/blepnote.png',
-      title: 'BlepNote',
-      description: 'A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.',
-      technologies: ['JavaScript', 'TailwindCSS', 'HTML5', 'Git', 'GitHub'],
-      link: 'https://www.romelioteodoro.dev/blepnote/'
+      image: '/images/weather-app.png',
+      title: 'Weather App',
+      description: 'A simple web application that lets users search for current and future weather information by location.',
+      technologies: ['JavaScript', 'Webpack', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Git', 'GitHub'],
+      link: 'https://www.romelioteodoro.dev/weather-app/'
     },
     {
       image: '/images/todo-app.png',
@@ -78,6 +78,13 @@ function MainContent() {
       description: `Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.`,
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Git', 'GitHub'],
       link: 'https://www.romelioteodoro.dev/akda/'
+    },
+    {
+      image: '/images/blepnote.png',
+      title: 'BlepNote',
+      description: 'A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.',
+      technologies: ['JavaScript', 'TailwindCSS', 'HTML5', 'Git', 'GitHub'],
+      link: 'https://www.romelioteodoro.dev/blepnote/'
     },
     {
       image: '/images/calculator.png',
