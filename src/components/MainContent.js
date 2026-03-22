@@ -19,6 +19,11 @@ function MainContent() {
 
   const certifications = [
     {
+      image: '/images/google-sys-admin.jpg',
+      title: 'System Administration and IT Infrastructure Services',
+      description: 'Completed a comprehensive Systems Administration course focused on managing and maintaining IT infrastructure across multi-user environments. Gained hands-on knowledge in cloud services, server management, directory services, and disaster recovery to ensure reliable and scalable operations.'
+    },
+    {
       image: '/images/SOSCONPH-2025.jpg',
       title: 'Samsung Open Source Conference Philippines 2025',
       description: 'This introduced me to the real impact of open-source in the Philippines, from industry talks to practical innovations. With their workshop, I learned all about Docker. Attending it helped me understand how collaboration shapes modern software development.'
