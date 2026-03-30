@@ -57,6 +57,13 @@ function MainContent() {
 
   const projects = [
     {
+      image: '/images/battleship.png',
+      title: 'Battleship',
+      description: 'A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent’s hidden fleet with my dumb humor.',
+      technologies: ['JavaScript', 'Webpack', 'Jest', 'Babel', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Git', 'GitHub'],
+      link: 'https://www.romelioteodoro.dev/battleship/'
+    },
+    {
       image: '/images/weather-app.png',
       title: 'Weather App',
       description: 'A simple web application that lets users search for current and future weather information by location.',
