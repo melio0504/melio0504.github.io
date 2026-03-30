@@ -12,7 +12,7 @@ function ImageModal({ image, title, onClose }) {
 
     document.addEventListener('keydown', handleEscape);
     document.body.style.overflow = 'hidden';
-    
+
     setTimeout(() => setIsVisible(true), 10);
 
     return () => {
@@ -27,9 +27,9 @@ function ImageModal({ image, title, onClose }) {
       style={{ opacity: isVisible ? 1 : 0 }}
       onClick={onClose}
     >
-      <div 
+      <div
         className="absolute inset-0 bg-black/70 backdrop-blur-sm transition-all duration-300"
-        style={{ 
+        style={{
           opacity: isVisible ? 1 : 0,
           backdropFilter: isVisible ? 'blur(4px)' : 'blur(0px)'
         }}
@@ -50,7 +50,7 @@ function ImageModal({ image, title, onClose }) {
           />
         </div>
         {title && (
-          <p 
+          <p
             className="text-center text-maroon-300 mt-4 text-lg font-semibold transition-all duration-300"
             style={{
               opacity: isVisible ? 1 : 0,

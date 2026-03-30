@@ -22,9 +22,9 @@ function ProjectCard({ image, title, description, technologies, link }) {
             <h3 className="text-xl font-semibold text-maroon-300 group-hover:text-maroon-200 transition-colors">
               {title}
             </h3>
-            <ExternalLink 
-              size={18} 
-              className="text-maroon-600 group-hover:text-maroon-400 transition-colors opacity-0 group-hover:opacity-100" 
+            <ExternalLink
+              size={18}
+              className="text-maroon-600 group-hover:text-maroon-400 transition-colors opacity-0 group-hover:opacity-100"
             />
           </div>
           <p className="text-gray-400 mb-4 leading-relaxed">
