@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.[contenthash].js',
+    publicPath: '/melio0504.github.io/',
     clean: true
   },
   module: {
@@ -28,7 +29,7 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: 'html-loader'
-      },  
+      },
       {
         test: /\.(png|jpe?g|gif|svg|webp)$/i,
         type: 'asset/resource',
