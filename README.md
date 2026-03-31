@@ -8,9 +8,8 @@ My portfolio website showcasing my work, experience, and projects in web develop
 
 - **React 18** - UI library
 - **Tailwind CSS** - Utility-first CSS framework
-- **Webpack** - Module bundler
+- **Vite** - Frontend build tool
 - **Lucide React** - Icon library
-- **Babel** - JavaScript compiler
 - **GitHub Pages** - Hosting platform
 
 ## Design Inspiration
