@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ExperienceCard from './ExperienceCard';
 import CertificationCard from './CertificationCard';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard.jsx';
 import ImageModal from './ImageModal';
 
 function MainContent() {

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, BookOpen, Instagram, Mail } from 'lucide-react';
-import profilePicture from '../../public/images/picture.jpg';
 
 function Sidebar() {
   const [activeSection, setActiveSection] = useState('about');
@@ -38,7 +37,7 @@ function Sidebar() {
       <div className="max-w-md flex flex-col items-center lg:items-start">
         <div className="w-56 h-56 min-w-[224px] min-h-[224px] flex-shrink-0 rounded-full mb-6 flex items-center justify-center overflow-hidden">
           <img
-            src={profilePicture}
+            src="/images/picture.jpg"
             alt="Romelio Teodoro - Full-stack Web Developer from Manila, Philippines"
             className="object-cover rounded-full flex-shrink-0 select-none"
             draggable={false}
