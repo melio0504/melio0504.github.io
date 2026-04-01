@@ -1,5 +1,12 @@
 [
   {
+    "image": "/images/CV-builder.png",
+    "title": "Curriculum Vitae Builder",
+    "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
+    "technologies": ["React",  "Vite", "jsPDF", "Lucide React", "ESLint", "HTML5", "CSS3", "Git", "GitHub"],
+    "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
+  },
+  {
     "image": "/images/battleship.png",
     "title": "Battleship",
     "description": "A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent's hidden fleet with my dumb humor.",
