@@ -1,5 +1,12 @@
 [
   {
+    "image": "/images/memory-card-game.png",
+    "title": "Memory Card Game",
+    "description": "A web-based memory game that challenges players to remember previously selected cards and avoid clicking them again with the popular cat memes.",
+    "technologies": ["React",  "Vite", "Vitest", "ESLint", "HTML5", "CSS3", "Git", "GitHub"],
+    "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
+  },
+  {
     "image": "/images/CV-builder.png",
     "title": "Curriculum Vitae Builder",
     "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
