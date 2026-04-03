@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/memory-card-game.png",
+    "image": "/images/projects/memory_card_game.webp",
     "title": "Memory Card Game",
     "description": "A web-based memory game that challenges players to remember previously selected cards and avoid clicking them again with the popular cat memes.",
     "technologies": [
@@ -16,7 +16,7 @@
     "link": "https://www.romelioteodoro.dev/memory-card-game/"
   },
   {
-    "image": "/images/CV-builder.png",
+    "image": "/images/projects/cv_builder.webp",
     "title": "Curriculum Vitae Builder",
     "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
     "technologies": [
@@ -33,7 +33,7 @@
     "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
   },
   {
-    "image": "/images/battleship.png",
+    "image": "/images/projects/battleship.webp",
     "title": "Battleship",
     "description": "A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent's hidden fleet with my dumb humor.",
     "technologies": [
@@ -51,7 +51,7 @@
     "link": "https://www.romelioteodoro.dev/battleship/"
   },
   {
-    "image": "/images/weather-app.png",
+    "image": "/images/projects/weather_app.webp",
     "title": "Weather App",
     "description": "A simple web application that lets users search for current and future weather information by location.",
     "technologies": [
@@ -67,7 +67,7 @@
     "link": "https://www.romelioteodoro.dev/weather-app/"
   },
   {
-    "image": "/images/todo-app.png",
+    "image": "/images/projects/todo_app.webp",
     "title": "To-Do List",
     "description": "A simple todo-list web application inspired by Google Tasks UI design.",
     "technologies": [
@@ -82,7 +82,7 @@
     "link": "https://www.romelioteodoro.dev/todo-list/"
   },
   {
-    "image": "/images/restaurant-page.png",
+    "image": "/images/projects/restaurant_page.webp",
     "title": "Restaurant Page",
     "description": "A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.",
     "technologies": [
@@ -97,81 +97,45 @@
     "link": "https://www.romelioteodoro.dev/restaurant-page/"
   },
   {
-    "image": "/images/akda.png",
+    "image": "/images/projects/akda.webp",
     "title": "Akda",
     "description": "Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "CSS3", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/akda/"
   },
   {
-    "image": "/images/blepnote.png",
+    "image": "/images/projects/blepnote.webp",
     "title": "BlepNote",
     "description": "A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.",
-    "technologies": [
-      "JavaScript",
-      "TailwindCSS",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "TailwindCSS", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/blepnote/"
   },
   {
-    "image": "/images/calculator.png",
+    "image": "/images/projects/calculator.webp",
     "title": "Calculator",
     "description": "A website that lets you easily access and use a simple calculator for quick calculations.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "CSS3", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/calculator/"
   },
   {
-    "image": "/images/etch-a-sketch.png",
+    "image": "/images/projects/etch_a_sketch.webp",
     "title": "Etch A Sketch",
     "description": "A website that lets you create pixel art with Etch A Sketch.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "CSS3", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/etch-a-sketch/"
   },
   {
-    "image": "/images/rock-paper-scissors.png",
+    "image": "/images/projects/rock_paper_scissors.webp",
     "title": "Rock Paper Scissors",
     "description": "A website that lets you play the classic Rock-Paper-Scissors game.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "CSS3", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/rock-paper-scissors/"
   },
   {
-    "image": "/images/tic-tac-toe.png",
+    "image": "/images/projects/tic_tac_toe.webp",
     "title": "Tic Tac Toe",
     "description": "A simple web application to play Tic Tac Toe but with cats.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
+    "technologies": ["JavaScript", "CSS3", "HTML5", "Git", "GitHub"],
     "link": "https://www.romelioteodoro.dev/tic-tac-toe/"
   }
 ]
