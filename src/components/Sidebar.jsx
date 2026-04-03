@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 import { Github, Linkedin, BookOpen, Instagram, Mail } from "lucide-react";
+import { useState, useEffect } from "react";
 
 function Sidebar() {
   const [activeSection, setActiveSection] = useState("about");
@@ -65,25 +65,22 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection("about")}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
-                  activeSection === "about" ? "brightness-150" : "text-gray-400"
-                }`}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === "about" ? "brightness-150" : "text-gray-400"
+                  }`}
               >
                 <span
-                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
-                    activeSection === "about"
-                      ? "scale-x-[4]"
-                      : "group-hover:scale-x-[4]"
-                  }`}
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === "about"
+                    ? "scale-x-[4]"
+                    : "group-hover:scale-x-[4]"
+                    }`}
                 >
                   —
                 </span>
                 <span
-                  className={`transition-all duration-300 ${
-                    activeSection === "about"
-                      ? "translate-x-12"
-                      : "group-hover:translate-x-12"
-                  }`}
+                  className={`transition-all duration-300 ${activeSection === "about"
+                    ? "translate-x-12"
+                    : "group-hover:translate-x-12"
+                    }`}
                 >
                   About
                 </span>
@@ -92,27 +89,24 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection("experience")}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
-                  activeSection === "experience"
-                    ? "brightness-150"
-                    : "text-gray-400"
-                }`}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === "experience"
+                  ? "brightness-150"
+                  : "text-gray-400"
+                  }`}
               >
                 <span
-                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
-                    activeSection === "experience"
-                      ? "scale-x-[4]"
-                      : "group-hover:scale-x-[4]"
-                  }`}
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === "experience"
+                    ? "scale-x-[4]"
+                    : "group-hover:scale-x-[4]"
+                    }`}
                 >
                   —
                 </span>
                 <span
-                  className={`transition-all duration-300 ${
-                    activeSection === "experience"
-                      ? "translate-x-12"
-                      : "group-hover:translate-x-12"
-                  }`}
+                  className={`transition-all duration-300 ${activeSection === "experience"
+                    ? "translate-x-12"
+                    : "group-hover:translate-x-12"
+                    }`}
                 >
                   Experience
                 </span>
@@ -121,27 +115,24 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection("certifications")}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
-                  activeSection === "certifications"
-                    ? "brightness-150"
-                    : "text-gray-400"
-                }`}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === "certifications"
+                  ? "brightness-150"
+                  : "text-gray-400"
+                  }`}
               >
                 <span
-                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
-                    activeSection === "certifications"
-                      ? "scale-x-[4]"
-                      : "group-hover:scale-x-[4]"
-                  }`}
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === "certifications"
+                    ? "scale-x-[4]"
+                    : "group-hover:scale-x-[4]"
+                    }`}
                 >
                   —
                 </span>
                 <span
-                  className={`transition-all duration-300 ${
-                    activeSection === "certifications"
-                      ? "translate-x-12"
-                      : "group-hover:translate-x-12"
-                  }`}
+                  className={`transition-all duration-300 ${activeSection === "certifications"
+                    ? "translate-x-12"
+                    : "group-hover:translate-x-12"
+                    }`}
                 >
                   Certifications
                 </span>
@@ -150,27 +141,24 @@ function Sidebar() {
             <li>
               <button
                 onClick={() => scrollToSection("projects")}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
-                  activeSection === "projects"
-                    ? "brightness-150"
-                    : "text-gray-400"
-                }`}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === "projects"
+                  ? "brightness-150"
+                  : "text-gray-400"
+                  }`}
               >
                 <span
-                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
-                    activeSection === "projects"
-                      ? "scale-x-[4]"
-                      : "group-hover:scale-x-[4]"
-                  }`}
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === "projects"
+                    ? "scale-x-[4]"
+                    : "group-hover:scale-x-[4]"
+                    }`}
                 >
                   —
                 </span>
                 <span
-                  className={`transition-all duration-300 ${
-                    activeSection === "projects"
-                      ? "translate-x-12"
-                      : "group-hover:translate-x-12"
-                  }`}
+                  className={`transition-all duration-300 ${activeSection === "projects"
+                    ? "translate-x-12"
+                    : "group-hover:translate-x-12"
+                    }`}
                 >
                   Projects
                 </span>

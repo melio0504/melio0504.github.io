@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ExperienceCard from "./ExperienceCard";
 import CertificationCard from "./CertificationCard";
 import ProjectCard from "./ProjectCard.jsx";
@@ -7,7 +7,7 @@ import experiences from "../data/experiences.json";
 import certifications from "../data/certifications.json";
 import projects from "../data/projects.json";
 
-function MainContent() {
+export default function MainContent() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
@@ -92,5 +92,3 @@ function MainContent() {
     </main>
   );
 }
-
-export default MainContent;

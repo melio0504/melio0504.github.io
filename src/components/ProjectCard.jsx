@@ -1,7 +1,12 @@
-import React from "react";
 import { ExternalLink } from "lucide-react";
 
-function ProjectCard({ image, title, description, technologies, link }) {
+export default function ProjectCard({
+  image,
+  title,
+  description,
+  technologies,
+  link,
+}) {
   return (
     <a
       href={link}
@@ -44,5 +49,3 @@ function ProjectCard({ image, title, description, technologies, link }) {
     </a>
   );
 }
-
-export default ProjectCard;

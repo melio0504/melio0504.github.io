@@ -1,7 +1,12 @@
-import React from "react";
 import { ExternalLink } from "lucide-react";
 
-function ExperienceCard({ date, title, description, technologies, link }) {
+export default function ExperienceCard({
+  date,
+  title,
+  description,
+  technologies,
+  link,
+}) {
   return (
     <a
       href={link}
@@ -39,5 +44,3 @@ function ExperienceCard({ date, title, description, technologies, link }) {
     </a>
   );
 }
-
-export default ExperienceCard;

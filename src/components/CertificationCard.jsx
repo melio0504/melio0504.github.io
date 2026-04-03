@@ -1,6 +1,9 @@
-import React from "react";
-
-function CertificationCard({ image, title, description, onImageClick }) {
+export default function CertificationCard({
+  image,
+  title,
+  description,
+  onImageClick,
+}) {
   return (
     <div className="flex flex-col lg:flex-row gap-6 p-6 rounded-lg hover:bg-maroon-900/10 transition-all duration-300">
       <div
@@ -22,5 +25,3 @@ function CertificationCard({ image, title, description, onImageClick }) {
     </div>
   );
 }
-
-export default CertificationCard;

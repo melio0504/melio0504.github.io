@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
-function ImageModal({ image, title, onClose }) {
+export default function ImageModal({ image, title, onClose }) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -66,5 +66,3 @@ function ImageModal({ image, title, onClose }) {
     </div>
   );
 }
-
-export default ImageModal;

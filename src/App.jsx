@@ -1,9 +1,8 @@
-import React from "react";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import CursorLight from "./components/CursorLight";
 
-function App() {
+export default function App() {
   return (
     <div className="relative min-h-screen">
       <CursorLight />
@@ -14,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
