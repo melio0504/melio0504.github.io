@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail, Github, Linkedin } from "lucide-react";
 
-function Sidebar() {
+export default function Sidebar() {
   const [activeSection, setActiveSection] = useState("about");
 
   useEffect(() => {
@@ -190,5 +190,3 @@ function Sidebar() {
     </div>
   );
 }
-
-export default Sidebar;
