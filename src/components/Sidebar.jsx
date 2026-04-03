@@ -1,5 +1,5 @@
-import { Github, Linkedin, BookOpen, Instagram, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 function Sidebar() {
   const [activeSection, setActiveSection] = useState("about");
