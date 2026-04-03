@@ -1,19 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, BookOpen, Instagram, Mail } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Github, Linkedin, BookOpen, Instagram, Mail } from "lucide-react";
 
 function Sidebar() {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState("about");
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'certifications', 'projects'];
+      const sections = ["about", "experience", "certifications", "projects"];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
           const { offsetTop, offsetHeight } = element;
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          if (
+            scrollPosition >= offsetTop &&
+            scrollPosition < offsetTop + offsetHeight
+          ) {
             setActiveSection(section);
             break;
           }
@@ -21,14 +24,14 @@ function Sidebar() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
@@ -44,8 +47,12 @@ function Sidebar() {
             onDragStart={(e) => e.preventDefault()}
           />
         </div>
-        <h1 className="text-4xl lg:text-5xl font-bold mb-4 w-full whitespace-nowrap text-center lg:text-left">Romelio Teodoro</h1>
-        <h1 className="text-2xl mb-4 text-center lg:text-left w-full">Full-stack Web Developer</h1>
+        <h1 className="text-4xl lg:text-5xl font-bold mb-4 w-full whitespace-nowrap text-center lg:text-left">
+          Romelio Teodoro
+        </h1>
+        <h1 className="text-2xl mb-4 text-center lg:text-left w-full">
+          Full-stack Web Developer
+        </h1>
         <a
           href="mailto:hello@romelioteodoro.dev"
           className="text-gray-400 mb-8 hover:brightness-150 transition-all duration-300 flex items-center gap-2 justify-center lg:justify-start text-center lg:text-left w-full"
@@ -57,74 +64,116 @@ function Sidebar() {
           <ul className="space-y-4">
             <li>
               <button
-                onClick={() => scrollToSection('about')}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === 'about'
-                    ? 'brightness-150'
-                    : 'text-gray-400'
-                  }`}
+                onClick={() => scrollToSection("about")}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
+                  activeSection === "about" ? "brightness-150" : "text-gray-400"
+                }`}
               >
-                <span className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === 'about'
-                    ? 'scale-x-[4]'
-                    : 'group-hover:scale-x-[4]'
-                  }`}>—</span>
-                <span className={`transition-all duration-300 ${activeSection === 'about'
-                    ? 'translate-x-12'
-                    : 'group-hover:translate-x-12'
-                  }`}>About</span>
+                <span
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
+                    activeSection === "about"
+                      ? "scale-x-[4]"
+                      : "group-hover:scale-x-[4]"
+                  }`}
+                >
+                  —
+                </span>
+                <span
+                  className={`transition-all duration-300 ${
+                    activeSection === "about"
+                      ? "translate-x-12"
+                      : "group-hover:translate-x-12"
+                  }`}
+                >
+                  About
+                </span>
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection('experience')}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === 'experience'
-                    ? 'brightness-150'
-                    : 'text-gray-400'
-                  }`}
+                onClick={() => scrollToSection("experience")}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
+                  activeSection === "experience"
+                    ? "brightness-150"
+                    : "text-gray-400"
+                }`}
               >
-                <span className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === 'experience'
-                    ? 'scale-x-[4]'
-                    : 'group-hover:scale-x-[4]'
-                  }`}>—</span>
-                <span className={`transition-all duration-300 ${activeSection === 'experience'
-                    ? 'translate-x-12'
-                    : 'group-hover:translate-x-12'
-                  }`}>Experience</span>
+                <span
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
+                    activeSection === "experience"
+                      ? "scale-x-[4]"
+                      : "group-hover:scale-x-[4]"
+                  }`}
+                >
+                  —
+                </span>
+                <span
+                  className={`transition-all duration-300 ${
+                    activeSection === "experience"
+                      ? "translate-x-12"
+                      : "group-hover:translate-x-12"
+                  }`}
+                >
+                  Experience
+                </span>
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection('certifications')}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === 'certifications'
-                    ? 'brightness-150'
-                    : 'text-gray-400'
-                  }`}
+                onClick={() => scrollToSection("certifications")}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
+                  activeSection === "certifications"
+                    ? "brightness-150"
+                    : "text-gray-400"
+                }`}
               >
-                <span className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === 'certifications'
-                    ? 'scale-x-[4]'
-                    : 'group-hover:scale-x-[4]'
-                  }`}>—</span>
-                <span className={`transition-all duration-300 ${activeSection === 'certifications'
-                    ? 'translate-x-12'
-                    : 'group-hover:translate-x-12'
-                  }`}>Certifications</span>
+                <span
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
+                    activeSection === "certifications"
+                      ? "scale-x-[4]"
+                      : "group-hover:scale-x-[4]"
+                  }`}
+                >
+                  —
+                </span>
+                <span
+                  className={`transition-all duration-300 ${
+                    activeSection === "certifications"
+                      ? "translate-x-12"
+                      : "group-hover:translate-x-12"
+                  }`}
+                >
+                  Certifications
+                </span>
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection('projects')}
-                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${activeSection === 'projects'
-                    ? 'brightness-150'
-                    : 'text-gray-400'
-                  }`}
+                onClick={() => scrollToSection("projects")}
+                className={`text-center lg:text-left hover:brightness-150 transition-all duration-300 w-full flex items-center group ${
+                  activeSection === "projects"
+                    ? "brightness-150"
+                    : "text-gray-400"
+                }`}
               >
-                <span className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${activeSection === 'projects'
-                    ? 'scale-x-[4]'
-                    : 'group-hover:scale-x-[4]'
-                  }`}>—</span>
-                <span className={`transition-all duration-300 ${activeSection === 'projects'
-                    ? 'translate-x-12'
-                    : 'group-hover:translate-x-12'
-                  }`}>Projects</span>
+                <span
+                  className={`mr-4 inline-block transition-all duration-300 origin-left scale-x-150 ${
+                    activeSection === "projects"
+                      ? "scale-x-[4]"
+                      : "group-hover:scale-x-[4]"
+                  }`}
+                >
+                  —
+                </span>
+                <span
+                  className={`transition-all duration-300 ${
+                    activeSection === "projects"
+                      ? "translate-x-12"
+                      : "group-hover:translate-x-12"
+                  }`}
+                >
+                  Projects
+                </span>
               </button>
             </li>
           </ul>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { ExternalLink } from 'lucide-react';
+import React from "react";
+import { ExternalLink } from "lucide-react";
 
 function ExperienceCard({ date, title, description, technologies, link }) {
   return (
@@ -23,9 +23,7 @@ function ExperienceCard({ date, title, description, technologies, link }) {
               className="text-maroon-600 group-hover:text-maroon-400 transition-colors opacity-0 group-hover:opacity-100"
             />
           </div>
-          <p className="text-gray-400 mb-4 leading-relaxed">
-            {description}
-          </p>
+          <p className="text-gray-400 mb-4 leading-relaxed">{description}</p>
           <div className="flex flex-wrap gap-2">
             {technologies.map((tech, index) => (
               <span

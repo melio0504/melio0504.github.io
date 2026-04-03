@@ -1,7 +1,7 @@
-import React from 'react';
-import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent';
-import CursorLight from './components/CursorLight';
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import MainContent from "./components/MainContent";
+import CursorLight from "./components/CursorLight";
 
 function App() {
   return (
