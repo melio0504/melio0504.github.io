@@ -1,17 +1,17 @@
-# Portfolio Website
+# Personal Portfolio Website
 
-![Website](/public/images/screenshot.png)
+![Website Preview](./assets/screenshot.png)
 
-My portfolio website showcasing my work, experience, and projects in web development. Built with React and Tailwind CSS, featuring a clean design with smooth animations and an intuitive user experience.
+This is my personal portfolio website built to present my background, experience, certifications, and selected projects in one place. I love this layout because visitors can keep scrolling while still seeing my name, profile, and key links.
 
 ## Tech Stack
 
-- **React 18** - UI library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Frontend build tool
-- **Lucide React** - Icon library
-- **GitHub Pages** - Hosting platform
+- React 18
+- Tailwind CSS
+- Vite
+- Lucide React
+- GitHub Pages
 
 ## Design Inspiration
 
-This design is heavily inspired by [Brittany Chiang](https://brittanychiang.com/), with custom modifications and personal touches. 
+This design is heavily inspired by [Brittany Chiang](https://brittanychiang.com/), then adapted and refined with my own content and styling decisions.
