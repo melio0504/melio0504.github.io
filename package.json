@@ -4,6 +4,7 @@
   "description": "Personal website portfolio",
   "main": "src/main.jsx",
   "scripts": {
+    "format": "prettier --write .",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
