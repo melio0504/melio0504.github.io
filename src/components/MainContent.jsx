@@ -11,7 +11,7 @@ function MainContent() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="w-full lg:ml-[50%] min-h-screen z-10">
+    <main className="w-full lg:ml-[50%] min-h-screen z-10">
       <div className="max-w-4xl lg:max-w-2xl mx-auto lg:mx-0 py-8 lg:py-20">
         <section id="about" className="mb-10">
           <div className="space-y-4 text-gray-300 leading-relaxed">
@@ -89,7 +89,7 @@ function MainContent() {
           </p>
         </footer>
       </div>
-    </div>
+    </main>
   );
 }
 
