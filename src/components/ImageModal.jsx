@@ -46,6 +46,7 @@ function ImageModal({ image, title, onClose }) {
           <img
             src={image}
             alt={title}
+            draggable={false}
             className="w-full h-auto max-h-[72vh] md:max-h-[76vh] object-contain"
           />
         </div>

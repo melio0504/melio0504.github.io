@@ -14,6 +14,7 @@ function ProjectCard({ image, title, description, technologies, link }) {
           <img
             src={image}
             alt={title}
+            draggable={false}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>

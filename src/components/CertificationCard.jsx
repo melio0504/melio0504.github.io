@@ -7,7 +7,12 @@ function CertificationCard({ image, title, description, onImageClick }) {
         className="lg:min-w-[200px] lg:w-[200px] lg:h-[112px] w-full h-auto rounded overflow-hidden cursor-pointer hover:opacity-90 transition-opacity"
         onClick={onImageClick}
       >
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img
+          src={image}
+          alt={title}
+          draggable={false}
+          className="w-full h-full object-cover"
+        />
       </div>
       <div className="flex-1">
         <h3 className="text-xl font-semibold text-maroon-300 mb-2">{title}</h3>
