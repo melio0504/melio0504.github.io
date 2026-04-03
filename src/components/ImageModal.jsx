@@ -35,7 +35,7 @@ function ImageModal({ image, title, onClose }) {
         }}
       />
       <div
-        className="relative z-10 max-w-5xl max-h-[90vh] w-full transition-all duration-300"
+        className="relative z-10 max-w-4xl max-h-[88vh] w-full transition-all duration-300"
         style={{
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? 'scale(1)' : 'scale(0.95)',
@@ -46,7 +46,7 @@ function ImageModal({ image, title, onClose }) {
           <img
             src={image}
             alt={title}
-            className="w-full h-auto max-h-[90vh] object-contain"
+            className="w-full h-auto max-h-[72vh] md:max-h-[76vh] object-contain"
           />
         </div>
         {title && (
