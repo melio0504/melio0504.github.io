@@ -84,8 +84,8 @@ export default function MainContent() {
         <footer className="mt-24 pt-8">
           <p className="text-sm text-gray-400 text-center leading-relaxed">
             Design inspired by Brittany Chiang, refined with my own personal
-            touch. Built with React.js, Tailwind CSS, and Vite, and deployed
-            through GitHub Pages. Crafted with care and attention to detail.
+            touch. Built with React, Tailwind CSS, and Vite. Deployed with
+            GitHub Pages. Crafted with care and attention to detail.
           </p>
         </footer>
       </div>
