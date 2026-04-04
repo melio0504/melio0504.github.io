@@ -6,11 +6,9 @@ This is my personal portfolio website built to present my background, experience
 
 ## Tech Stack
 
-- React 18
+- React
 - Tailwind CSS
 - Vite
-- Lucide React
-- GitHub Pages
 
 ## Design Inspiration
 
