@@ -1,41 +1,41 @@
 [
   {
-    "image": "/images/certifications/sysadmin_certificate_2025.webp",
+    "image": "sysadmin_certificate_2025.webp",
     "title": "System Administration and IT Infrastructure Services",
     "description": "Completed a comprehensive Systems Administration course focused on managing and maintaining IT infrastructure across multi-user environments. Gained hands-on knowledge in cloud services, server management, directory services, and disaster recovery to ensure reliable and scalable operations."
   },
   {
-    "image": "/images/certifications/sosconph_2025.webp",
+    "image": "sosconph_2025.webp",
     "title": "Samsung Open Source Conference Philippines 2025",
     "description": "This conference introduced me to the real impact of open source in the Philippines, from industry talks to practical innovations. Through hands-on workshops, I deepened my understanding of Docker and modern development workflows. Attending SOSCON PH strengthened my appreciation for how collaboration drives software innovation."
   },
   {
-    "image": "/images/certifications/hacktoberfest_2025.webp",
+    "image": "hacktoberfest_2025.webp",
     "title": "Hacktoberfest 2025: Supercontributor",
     "description": "Recognized as a Hacktoberfest 2025 Supercontributor for achieving 6+ accepted PRs/MRs. As part of the milestone program, the first 10,000 contributors to reach six accepted PRs/MRs also receive a special t-shirt code from DigitalOcean."
   },
   {
-    "image": "/images/certifications/oss_bettergovph.webp",
+    "image": "oss_bettergovph.webp",
     "title": "OSStober Weekends 2025 | BetterGovPH for a Better Philippines",
     "description": "From the creator, Mr. Jason Torres, I learned about BetterGovPH and its open-source initiatives that promote government transparency and accessibility. I explored projects like the Kapwa Design System, Open Budget Data, and Open Congress Data, which are designed to make public information easier to access and understand. He also shared the story of how and why he decided to begin this initiative."
   },
   {
-    "image": "/images/certifications/oss101.webp",
+    "image": "oss101.webp",
     "title": "OSS101: Introduction to Open Source Software",
     "description": "I had the opportunity to learn from Mr. Joff Tiquez, founder of OSSPH, who introduced the fundamentals of Open Source Software and its impact on modern development. He explained the benefits of contributing to open source projects and highlighted the importance of understanding various OSS licenses. To apply what we learned, we also opened our first Pull Request on GitHub through a hands-on activity."
   },
   {
-    "image": "/images/certifications/linux_foundation_lfc112_2025.webp",
+    "image": "linux_foundation_lfc112_2025.webp",
     "title": "LFC112: Creating Effective Documentation for Developers",
     "description": "This taught me how to write clearer and more useful documentation. I learned the importance of structure, consistency, and communication when creating developer guides."
   },
   {
-    "image": "/images/certifications/linux_foundation_lfd102_2025.webp",
+    "image": "linux_foundation_lfd102_2025.webp",
     "title": "LFD102: A Beginner's Guide to Open Source Software Development",
     "description": "This helped me understand the full workflow of contributing to OSS, from version control to licensing. It boosted my confidence in participating in open-source communities."
   },
   {
-    "image": "/images/certifications/linux_foundation_lfs101_2025.webp",
+    "image": "linux_foundation_lfs101_2025.webp",
     "title": "Introduction to Linux (LFS101)",
     "description": "This strengthened my understanding of Linux basics and terminal commands. It helped me become more comfortable working in a Linux environment, especially as someone who uses it daily for development."
   }
