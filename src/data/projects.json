@@ -1,6 +1,25 @@
 [
   {
-    "image": "/images/projects/memory_card_game.webp",
+    "image": "shopping_cart.webp",
+    "title": "Shopping Cart",
+    "description": "A React-based shopping cart application featuring product browsing, cart management, and dynamic item quantity updates using React Router and state management.",
+    "technologies": [
+      "React",
+      "React Router",
+      "Testing Library",
+      "Vite",
+      "Vitest",
+      "ESLint",
+      "Prettier",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://shopping-cart-two-navy.vercel.app/"
+  },
+  {
+    "image": "memory_card_game.webp",
     "title": "Memory Card Game",
     "description": "A web-based memory game that challenges players to remember previously selected cards and avoid clicking them again with the popular cat memes.",
     "technologies": [
@@ -16,7 +35,7 @@
     "link": "https://www.romelioteodoro.dev/memory-card-game/"
   },
   {
-    "image": "/images/projects/cv_builder.webp",
+    "image": "cv_builder.webp",
     "title": "Curriculum Vitae Builder",
     "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
     "technologies": [
@@ -33,7 +52,7 @@
     "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
   },
   {
-    "image": "/images/projects/battleship.webp",
+    "image": "battleship.webp",
     "title": "Battleship",
     "description": "A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent's hidden fleet with my dumb humor.",
     "technologies": [
@@ -51,7 +70,7 @@
     "link": "https://www.romelioteodoro.dev/battleship/"
   },
   {
-    "image": "/images/projects/weather_app.webp",
+    "image": "weather_app.webp",
     "title": "Weather App",
     "description": "A simple web application that lets users search for current and future weather information by location.",
     "technologies": [
@@ -67,7 +86,7 @@
     "link": "https://www.romelioteodoro.dev/weather-app/"
   },
   {
-    "image": "/images/projects/todo_app.webp",
+    "image": "todo_app.webp",
     "title": "To-Do List",
     "description": "A simple todo-list web application inspired by Google Tasks UI design.",
     "technologies": [
@@ -82,7 +101,7 @@
     "link": "https://www.romelioteodoro.dev/todo-list/"
   },
   {
-    "image": "/images/projects/restaurant_page.webp",
+    "image": "restaurant_page.webp",
     "title": "Restaurant Page",
     "description": "A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.",
     "technologies": [
@@ -97,7 +116,7 @@
     "link": "https://www.romelioteodoro.dev/restaurant-page/"
   },
   {
-    "image": "/images/projects/akda.webp",
+    "image": "akda.webp",
     "title": "Akda",
     "description": "Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.",
     "technologies": [
@@ -110,7 +129,7 @@
     "link": "https://www.romelioteodoro.dev/akda/"
   },
   {
-    "image": "/images/projects/blepnote.webp",
+    "image": "blepnote.webp",
     "title": "BlepNote",
     "description": "A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.",
     "technologies": [
@@ -123,7 +142,7 @@
     "link": "https://www.romelioteodoro.dev/blepnote/"
   },
   {
-    "image": "/images/projects/calculator.webp",
+    "image": "calculator.webp",
     "title": "Calculator",
     "description": "A website that lets you easily access and use a simple calculator for quick calculations.",
     "technologies": [
@@ -136,7 +155,7 @@
     "link": "https://www.romelioteodoro.dev/calculator/"
   },
   {
-    "image": "/images/projects/etch_a_sketch.webp",
+    "image": "etch_a_sketch.webp",
     "title": "Etch A Sketch",
     "description": "A website that lets you create pixel art with Etch A Sketch.",
     "technologies": [
@@ -149,7 +168,7 @@
     "link": "https://www.romelioteodoro.dev/etch-a-sketch/"
   },
   {
-    "image": "/images/projects/rock_paper_scissors.webp",
+    "image": "rock_paper_scissors.webp",
     "title": "Rock Paper Scissors",
     "description": "A website that lets you play the classic Rock-Paper-Scissors game.",
     "technologies": [
@@ -162,7 +181,7 @@
     "link": "https://www.romelioteodoro.dev/rock-paper-scissors/"
   },
   {
-    "image": "/images/projects/tic_tac_toe.webp",
+    "image": "tic_tac_toe.webp",
     "title": "Tic Tac Toe",
     "description": "A simple web application to play Tic Tac Toe but with cats.",
     "technologies": [
