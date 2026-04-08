@@ -7,6 +7,23 @@ import experiences from "../data/experiences.json";
 import certifications from "../data/certifications.json";
 import projects from "../data/projects.json";
 
+const projectImages = import.meta.glob("../images/projects/*", {
+  eager: true,
+  import: "default",
+});
+
+const certificationImages = import.meta.glob("../images/certifications/*", {
+  eager: true,
+  import: "default",
+});
+
+const resolveImage = (group, fileName) => {
+  if (!fileName) return "";
+  const key = `../images/${group}/${fileName}`;
+  const imageMap = group === "projects" ? projectImages : certificationImages;
+  return imageMap[key] ?? "";
+};
+
 export default function MainContent() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -58,8 +75,12 @@ export default function MainContent() {
               <CertificationCard
                 key={index}
                 {...cert}
+                image={resolveImage("certifications", cert.image)}
                 onImageClick={() =>
-                  setSelectedImage({ image: cert.image, title: cert.title })
+                  setSelectedImage({
+                    image: resolveImage("certifications", cert.image),
+                    title: cert.title,
+                  })
                 }
               />
             ))}
@@ -77,7 +98,11 @@ export default function MainContent() {
           <h2 className="text-3xl font-bold text-maroon-300 mb-8">Projects</h2>
           <div className="space-y-8">
             {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
+              <ProjectCard
+                key={index}
+                {...project}
+                image={resolveImage("projects", project.image)}
+              />
             ))}
           </div>
         </section>
