@@ -2,7 +2,7 @@
   {
     "image": "inventory_app.webp",
     "title": "Inventory Management",
-    "description": "This is n inventory management app for imaginary Kalachuchi Pet Supplies using Express, EJS, SCSS, and PostgreSQL.",
+    "description": "An inventory management app for imaginary Kalachuchi Pet Supplies using Express, EJS, SCSS, and PostgreSQL.",
     "technologies": [
       "Node.js",
       "Express",
