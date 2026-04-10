@@ -1,5 +1,21 @@
 [
   {
+    "image": "inventory_app.webp",
+    "title": "Inventory Management",
+    "description": "This is n inventory management app for imaginary Kalachuchi Pet Supplies using Express, EJS, SCSS, and PostgreSQL.",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "dotenv",
+      "PostgreSQL",
+      "EJS",
+      "SCSS",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://express-postgres-inventory-app-production.up.railway.app/"
+  },
+  {
     "image": "shopping_cart.webp",
     "title": "Shopping Cart",
     "description": "A React-based shopping cart application featuring product browsing, cart management, and dynamic item quantity updates using React Router and state management.",
