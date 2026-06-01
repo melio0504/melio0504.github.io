@@ -34,7 +34,7 @@ export default function MainContent() {
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
               Hi, I’m <b>Romelio</b> from <b>Manila, Philippines</b>. I’m
-              currently a 3rd-year BSIT student with a strong interest in web
+              currently a 4th-year BSIT student with a strong interest in web
               technologies and the role they play in making information easier
               and faster to reach. Right now, I’m currently exploring different
               areas of web development and enjoying the process of learning and
