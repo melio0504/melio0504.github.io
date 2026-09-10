@@ -2,4 +2,4 @@
 
 ![Website Preview](./assets/screenshot.png)
 
-This is my personal portfolio website built to present my background, experience, certifications, and selected projects in one place. I love this layout because users can keep scrolling while still seeing my name, profile, and social links.
+This is my personal portfolio website, designed to showcase my background, experience, certifications, and selected projects in one place. I chose this layout because it allows visitors to continuously scroll through my content while keeping my name, profile, and social links easily accessible.
