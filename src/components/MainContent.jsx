@@ -26,6 +26,7 @@ const resolveImage = (group, fileName) => {
 
 export default function MainContent() {
   const [selectedImage, setSelectedImage] = useState(null);
+  const latestFirst = (list) => [...list].reverse();
 
   return (
     <main className="w-full lg:ml-[50%] min-h-screen z-10">
@@ -61,7 +62,7 @@ export default function MainContent() {
             Experience
           </h2>
           <div className="space-y-8">
-            {experiences.map((exp, index) => (
+            {latestFirst(experiences).map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}
           </div>
@@ -71,7 +72,7 @@ export default function MainContent() {
             Certifications
           </h2>
           <div className="space-y-8">
-            {certifications.map((cert, index) => (
+            {latestFirst(certifications).map((cert, index) => (
               <CertificationCard
                 key={index}
                 {...cert}
@@ -97,7 +98,7 @@ export default function MainContent() {
         <section id="projects" className="mb-24">
           <h2 className="text-3xl font-bold text-maroon-300 mb-8">Projects</h2>
           <div className="space-y-8">
-            {projects.map((project, index) => (
+            {latestFirst(projects).map((project, index) => (
               <ProjectCard
                 key={index}
                 {...project}
