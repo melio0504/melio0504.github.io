@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "Romelio Teodoro <romelioteodoro1005@gmail.com> (https://github.com/melio0504)",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
