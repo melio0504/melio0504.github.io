@@ -141,7 +141,6 @@
     "description": "A clean and simple Java task tracker built with OOP principles and a user-friendly GUI.",
     "technologies": [
       "Java",
-      "CSS3",
       "Git",
       "GitHub"
     ],
