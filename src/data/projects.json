@@ -1,19 +1,231 @@
 [
   {
-    "image": "inventory_app.webp",
-    "title": "Inventory Management",
-    "description": "An inventory management app for imaginary Kalachuchi Pet Supplies using Express, EJS, SCSS, and PostgreSQL.",
+    "image": "tic_tac_toe.webp",
+    "title": "Tic Tac Toe",
+    "description": "A simple web application to play Tic Tac Toe but with cats.",
     "technologies": [
-      "Node.js",
-      "Express",
-      "dotenv",
-      "PostgreSQL",
-      "EJS",
-      "SCSS",
+      "JavaScript",
+      "CSS3",
+      "HTML5",
       "Git",
       "GitHub"
     ],
-    "link": "https://github.com/melio0504/express-postgres-inventory-app"
+    "link": "https://www.romelioteodoro.dev/tic-tac-toe/"
+  },
+  {
+    "image": "rock_paper_scissors.webp",
+    "title": "Rock Paper Scissors",
+    "description": "A website that lets you play the classic Rock-Paper-Scissors game.",
+    "technologies": [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/rock-paper-scissors/"
+  },
+  {
+    "image": "etch_a_sketch.webp",
+    "title": "Etch A Sketch",
+    "description": "A website that lets you create pixel art with Etch A Sketch.",
+    "technologies": [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/etch-a-sketch/"
+  },
+  {
+    "image": "calculator.webp",
+    "title": "Calculator",
+    "description": "A website that lets you easily access and use a simple calculator for quick calculations.",
+    "technologies": [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/calculator/"
+  },
+  {
+    "image": "blepnote.webp",
+    "title": "BlepNote",
+    "description": "A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.",
+    "technologies": [
+      "JavaScript",
+      "TailwindCSS",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/blepnote/"
+  },
+  {
+    "image": "akda.webp",
+    "title": "Akda",
+    "description": "Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.",
+    "technologies": [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/akda/"
+  },
+  {
+    "image": "admin_dashboard.webp",
+    "title": "Ferrari Dashboard",
+    "description": "A simple admin dashboard design to practice my CSS fundamentals.",
+    "technologies": [
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/admin-dashboard-design/"
+  },
+  {
+    "image": "restaurant_page.webp",
+    "title": "Restaurant Page",
+    "description": "A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.",
+    "technologies": [
+      "JavaScript",
+      "Webpack",
+      "npm",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/restaurant-page/"
+  },
+  {
+    "image": "todo_app.webp",
+    "title": "To-Do List",
+    "description": "A simple todo-list web application inspired by Google Tasks UI design.",
+    "technologies": [
+      "JavaScript",
+      "npm",
+      "Webpack",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/todo-list/"
+  },
+  {
+    "image": "weather_app.webp",
+    "title": "Weather App",
+    "description": "A simple web application that lets users search for current and future weather information by location.",
+    "technologies": [
+      "JavaScript",
+      "Webpack",
+      "ESLint",
+      "Prettier",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/weather-app/"
+  },
+  {
+    "image": "thinkfast.webp",
+    "title": "ThinkFast",
+    "description": "A clean and simple Java task tracker built with OOP principles and a user-friendly GUI.",
+    "technologies": [
+      "Java",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://github.com/melio0504/thinkfast"
+  },
+    {
+    "image": "purrmodoro.webp",
+    "title": "Purrmodoro",
+    "description": "A mobile Pomodoro timer app featuring an adorable cat companion that reacts during focus and break sessions, making productivity more fun and engaging.",
+    "technologies": [
+      "Java",
+      "Kotlin",
+      "Gradle",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://github.com/melio0504/purrmodoro"
+  },
+  {
+    "image": "grade_tracker.webp",
+    "title": "Grade Tracker",
+    "description": "A Flutter mobile application that helps students manage subjects, track grades and activities, calculate academic performance, and store records using SQLite and Firebase.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "SQLite",
+      "Firebase",
+      "Google Classroom API",
+      "Google Sign-In",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://github.com/melio0504/grade-tracker-flutter"
+  },
+  {
+    "image": "battleship.webp",
+    "title": "Battleship",
+    "description": "A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent's hidden fleet with my dumb humor.",
+    "technologies": [
+      "JavaScript",
+      "Webpack",
+      "Jest",
+      "Babel",
+      "ESLint",
+      "Prettier",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/battleship/"
+  },
+  {
+    "image": "cv_builder.webp",
+    "title": "Curriculum Vitae Builder",
+    "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
+    "technologies": [
+      "React",
+      "Vite",
+      "jsPDF",
+      "Lucide React",
+      "ESLint",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
+  },
+  {
+    "image": "memory_card_game.webp",
+    "title": "Memory Card Game",
+    "description": "A web-based memory game that challenges players to remember previously selected cards and avoid clicking them again with the popular cat memes.",
+    "technologies": [
+      "React",
+      "Vite",
+      "Vitest",
+      "ESLint",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.romelioteodoro.dev/memory-card-game/"
   },
   {
     "image": "shopping_cart.webp",
@@ -35,178 +247,47 @@
     "link": "https://shopping-cart-two-navy.vercel.app/"
   },
   {
-    "image": "memory_card_game.webp",
-    "title": "Memory Card Game",
-    "description": "A web-based memory game that challenges players to remember previously selected cards and avoid clicking them again with the popular cat memes.",
+    "image": "inventory_app.webp",
+    "title": "Inventory Management",
+    "description": "An inventory management app for imaginary Kalachuchi Pet Supplies using Express, EJS, SCSS, and PostgreSQL.",
     "technologies": [
-      "React",
-      "Vite",
-      "Vitest",
-      "ESLint",
-      "HTML5",
-      "CSS3",
+      "Node.js",
+      "Express",
+      "dotenv",
+      "PostgreSQL",
+      "EJS",
+      "SCSS",
       "Git",
       "GitHub"
     ],
-    "link": "https://www.romelioteodoro.dev/memory-card-game/"
+    "link": "https://github.com/melio0504/express-postgres-inventory-app"
   },
   {
-    "image": "cv_builder.webp",
-    "title": "Curriculum Vitae Builder",
-    "description": "A simple and customizable web app for creating, editing, and exporting professional CVs with ease.",
+    "image": "study_hub_reservation_system.webp",
+    "title": "Study Hub Reservation System",
+    "description": "A cross-platform desktop application using C# with Avalonia UI for Reservation System.",
     "technologies": [
-      "React",
-      "Vite",
-      "jsPDF",
-      "Lucide React",
-      "ESLint",
-      "HTML5",
-      "CSS3",
+      "C#",
+      ".NET 10",
+      "Avalonia UI",
       "Git",
       "GitHub"
     ],
-    "link": "https://www.romelioteodoro.dev/curriculum-vitae-builder/"
+    "link": "https://github.com/melio0504/study-hub-reservation-system"
   },
   {
-    "image": "battleship.webp",
-    "title": "Battleship",
-    "description": "A web-based implementation of the classic Battleship game where players strategically guess and sink their opponent's hidden fleet with my dumb humor.",
+    "image": "smart_4wd_robot_car.webp",
+    "title": "Smart 4WD Robot Arduino Car",
+    "description": "IoT-controlled 4-wheel robot car with ESP32-CAM live streaming, Arduino dual-MCU control (master/slave over I2C), and a Node.js web dashboard with keyboard controls.",
     "technologies": [
-      "JavaScript",
-      "Webpack",
-      "Jest",
-      "Babel",
-      "ESLint",
-      "Prettier",
-      "HTML5",
-      "CSS3",
+      "C++",
+      "Arduino Uno",
+      "ESP32-CAM",
+      "Express.js",
+      "Node.js",
       "Git",
       "GitHub"
     ],
-    "link": "https://www.romelioteodoro.dev/battleship/"
-  },
-  {
-    "image": "weather_app.webp",
-    "title": "Weather App",
-    "description": "A simple web application that lets users search for current and future weather information by location.",
-    "technologies": [
-      "JavaScript",
-      "Webpack",
-      "ESLint",
-      "Prettier",
-      "HTML5",
-      "CSS3",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/weather-app/"
-  },
-  {
-    "image": "todo_app.webp",
-    "title": "To-Do List",
-    "description": "A simple todo-list web application inspired by Google Tasks UI design.",
-    "technologies": [
-      "JavaScript",
-      "npm",
-      "Webpack",
-      "HTML5",
-      "CSS3",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/todo-list/"
-  },
-  {
-    "image": "restaurant_page.webp",
-    "title": "Restaurant Page",
-    "description": "A minimal restaurant website built with Webpack, npm, ES6 modules, and vanilla JavaScript.",
-    "technologies": [
-      "JavaScript",
-      "Webpack",
-      "npm",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/restaurant-page/"
-  },
-  {
-    "image": "akda.webp",
-    "title": "Akda",
-    "description": "Akda is a simple website designed to help you track, manage, and organize books you've read and plan to read.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/akda/"
-  },
-  {
-    "image": "blepnote.webp",
-    "title": "BlepNote",
-    "description": "A mental health tracker designed to help you monitor your daily mood and reflect on your thoughts, all with the support of a friendly cat companion.",
-    "technologies": [
-      "JavaScript",
-      "TailwindCSS",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/blepnote/"
-  },
-  {
-    "image": "calculator.webp",
-    "title": "Calculator",
-    "description": "A website that lets you easily access and use a simple calculator for quick calculations.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/calculator/"
-  },
-  {
-    "image": "etch_a_sketch.webp",
-    "title": "Etch A Sketch",
-    "description": "A website that lets you create pixel art with Etch A Sketch.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/etch-a-sketch/"
-  },
-  {
-    "image": "rock_paper_scissors.webp",
-    "title": "Rock Paper Scissors",
-    "description": "A website that lets you play the classic Rock-Paper-Scissors game.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/rock-paper-scissors/"
-  },
-  {
-    "image": "tic_tac_toe.webp",
-    "title": "Tic Tac Toe",
-    "description": "A simple web application to play Tic Tac Toe but with cats.",
-    "technologies": [
-      "JavaScript",
-      "CSS3",
-      "HTML5",
-      "Git",
-      "GitHub"
-    ],
-    "link": "https://www.romelioteodoro.dev/tic-tac-toe/"
+    "link": "https://github.com/melio0504/smart-4wd-robot-car"
   }
 ]
