@@ -43,5 +43,10 @@
     "image": "ibm_operating_systems_admin_security_2026.webp",
     "title": "IBM | Operating Systems: Overview, Administration, and Security",
     "description": "Completed a foundational course on operating systems, focusing on administration and security. Learned to navigate Windows, Linux, and macOS environments, manage user accounts and permissions, and apply core IT and cybersecurity concepts. Also gained introductory knowledge of cloud computing, including virtualization and containerization."
+  },
+  {
+    "image": "ethics_of_technology.webp",
+    "title": "Ethics of Technology",
+    "description": "Studied the ethical responsibilities of designing, developing, and using data analytics systems. Gained experience in analyzing ethical issues and dilemmas in data-driven technologies using moral frameworks and evaluating their impact on individuals, organizations, and society."
   }
 ]
