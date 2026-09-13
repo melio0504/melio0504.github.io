@@ -48,5 +48,10 @@
     "image": "ethics_of_technology.webp",
     "title": "Ethics of Technology",
     "description": "Studied the ethical responsibilities of designing, developing, and using data analytics systems. Gained experience in analyzing ethical issues and dilemmas in data-driven technologies using moral frameworks and evaluating their impact on individuals, organizations, and society."
+  },
+  {
+    "image": "microservices_architecture_and_communication_patterns.webp",
+    "title": "Microservices Architecture and Communication Patterns",
+    "description": "Developed a strong understanding of microservices architecture, with a focus on scalable service communication, API Gateway patterns, event-driven systems, distributed data management, CQRS, and Event Sourcing."
   }
 ]
