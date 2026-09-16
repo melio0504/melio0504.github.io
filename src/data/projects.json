@@ -53,9 +53,10 @@
   },
   {
     "image": "admin_dashboard.webp",
-    "title": "Ferrari Dashboard",
+    "title": "Admin Dashboard",
     "description": "A simple admin dashboard design to practice my CSS fundamentals.",
     "technologies": [
+      "JavaScript",
       "CSS3",
       "HTML5",
       "Git",
