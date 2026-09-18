@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Youtube, YoutubeIcon } from "lucide-react";
 import profilePicture from "../images/profile_picture.webp";
 
 export default function Sidebar() {
@@ -185,6 +185,15 @@ export default function Sidebar() {
             aria-label="LinkedIn"
           >
             <Linkedin size={24} />
+          </a>
+          <a
+            href="https://www.youtube.com/@melio0504"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:brightness-150 transition-all duration-300"
+            aria-label="Youtube"
+          >
+            <Youtube size={24} />
           </a>
         </div>
       </div>
