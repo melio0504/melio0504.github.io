@@ -34,12 +34,12 @@ export default function MainContent() {
         <section id="about" className="mb-10">
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
-              Hi, I’m <b>Romelio</b> from <b>Manila, Philippines</b>. I’m
-              currently a 4th-year BSIT student with a strong interest in web
-              technologies and the role they play in making information easier
-              and faster to reach. Right now, I’m currently exploring different
-              areas of web development and enjoying the process of learning and
-              building things along the way.
+              Hi, I’m <b>Romelio</b> from <b>Manila, Philippines</b>. I’m a 4th-year BSIT
+              student with a strong interest in <b>backend development, software engineering,
+                and Linux systems</b>. I enjoy building web applications, working with APIs and
+              databases, and learning how software and infrastructure work behind the scenes.
+              I’m continuously improving my skills through academic projects, personal
+              projects, and open-source contributions.
             </p>
             <p>
               I’m an advocate of <b>open-source software</b> because it makes
