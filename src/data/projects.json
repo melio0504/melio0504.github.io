@@ -323,5 +323,23 @@
       "GitHub"
     ],
     "link": "https://www.jit-studyhub.com/"
+  },
+  {
+    "image": "frameless-camera.webp",
+    "title": "Frameless Camera",
+    "description": "A lightweight, frameless, mirrored webcam window for movable camera overlays on Linux.",
+    "technologies": [
+      "C++20",
+      "Qt 6",
+      "Qt Widgets",
+      "Qt Multimedia",
+      "GNU Make",
+      "Bash",
+      "AppImage",
+      "linuxdeploy",
+      "Wayland",
+      "Linux"
+    ],
+    "link": "https://github.com/melio0504/frameless-camera"
   }
 ]
