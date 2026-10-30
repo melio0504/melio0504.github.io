@@ -265,7 +265,7 @@
   {
     "image": "study_hub_reservation_system.webp",
     "title": "Study Hub Reservation System",
-    "description": "A cross-platform desktop application using C# with Avalonia UI for Reservation System.",
+    "description": "A cross-platform desktop application built with C# and Avalonia UI for managing study hub reservations.",
     "technologies": [
       "C#",
       ".NET 10",
