@@ -52,7 +52,7 @@ export default function Sidebar() {
           Romelio Teodoro
         </h1>
         <h1 className="text-2xl mb-4 text-center lg:text-left w-full">
-          Full-stack Web Developer
+          Software Developer
         </h1>
         <a
           href="mailto:hello@romelioteodoro.dev"
